@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Introduction to Web Development</title>
+    <link href="style.css" rel="stylesheet">
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lobster|Poiret+One|Raleway|Maven+Pro" rel="stylesheet">
+</head>
+
+<body class="body">
+    <div class="overlay"></div>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <h1 class="title">Layers of a Website</h1>
+            </div>
+        </div>
+        <div class="row">
+            <button type="button" id="getMovie" class="btn btn-warning col-md-2 col-md-offset-5">Get Random Movie</button>
+        </div>
+        <div class="row">
+            <div class="col-md-6 col-md-offset-1">
+                <ul>
+                    <li class="movie">Title
+                        <ul>
+                            <li class="title"></li>
+                        </ul>
+                    </li>
+                    <li class="movie">Release Year
+                        <ul>
+                            <li class="year"></li>
+                        </ul>
+                    </li>
+                    <li class="movie">Stars
+                        <ul>
+                            <li class="stars"></li>
+                        </ul>
+                    </li>
+                    <li class="movie">Genres
+                        <ul>
+                            <li class="genre"></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-md-4">
+                <img class="poster" src="" width="100%">
+            </div>
+        </div>
+        <br>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="ajaxCalls.js"></script>
+    <script src="layers.js"></script>
+</body>
+
+</html>

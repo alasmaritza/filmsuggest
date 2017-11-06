@@ -1,0 +1,50 @@
+.body {
+    color: white;
+    background-image: url('https://www.nyfa.edu/film-school-blog/wp-content/uploads/2015/02/projector.jpg');
+}
+
+/* .overlay {
+    background-color: rgba(14, 109, 103, 0.44);
+    height: 100%;
+    width: 100%;
+    position: absolute;
+} */
+
+.container {
+    background-color: rgba(5, 38, 36, 0.73);
+}
+
+h1.title {
+    font-family: 'Lobster';
+    text-align: center;
+    font-size: 60px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+li {
+    list-style-type: none;
+    /* display: inline; */
+    text-align: left;
+    font-size: 30px;
+    font-family: 'Poiret One';
+}
+
+li.movie {
+    font-family: 'Lobster';
+    text-align:left;
+}
+
+ul {
+
+    margin: auto;
+}
+
+#getMovie {
+    margin-bottom: 20px;
+}
+
+.poster {
+    margin:0 auto;
+    display:block;
+}
