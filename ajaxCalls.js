@@ -1,5 +1,5 @@
 var movieGet = function(id,onSuccess,onError) {
-    var url = "http://www.theimdbapi.org/api/movie?movie_id=tt" + id
+    var url = "https://www.theimdbapi.org/api/movie?movie_id=tt" + id
     var settings = {
         cache: false,
         contentType: 'application/x-www-form-urlencoded; charset=UTF-8',
